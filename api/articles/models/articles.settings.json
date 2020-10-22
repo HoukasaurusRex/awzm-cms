@@ -40,7 +40,7 @@
     "date": {
       "type": "date"
     },
-    "description": {
+    "summary": {
       "type": "text"
     },
     "user": {
@@ -49,6 +49,9 @@
       "via": "articles"
     },
     "author": {
+      "type": "string"
+    },
+    "location": {
       "type": "string"
     }
   }
