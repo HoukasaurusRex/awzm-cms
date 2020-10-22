@@ -43,11 +43,6 @@
     "summary": {
       "type": "text"
     },
-    "user": {
-      "plugin": "users-permissions",
-      "model": "user",
-      "via": "articles"
-    },
     "author": {
       "type": "string"
     },
