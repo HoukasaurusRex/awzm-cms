@@ -37,7 +37,7 @@
         "archived"
       ]
     },
-    "published_on": {
+    "date": {
       "type": "date"
     },
     "description": {
@@ -47,6 +47,9 @@
       "plugin": "users-permissions",
       "model": "user",
       "via": "articles"
+    },
+    "author": {
+      "type": "string"
     }
   }
 }
